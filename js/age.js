@@ -1,13 +1,18 @@
+//Question one
+//1.) Crate a JavaScript application that will take date input from user 
+//and display how old they are
+
+
 // let days = eval(prompt("Enter Day"))
 // let month = eval(prompt("Enter Month"))
-let year = eval(prompt("Enter Year"))
+//let year = eval(prompt("Enter Year"))
 
 
 
 dt = new Date()
 console.log(dt)
 
-age = dt.getFullYear() - year
+//age = dt.getFullYear() - year
 
 document.getElementById("age").innerHTML = "You are " +age+ " Years old"
 

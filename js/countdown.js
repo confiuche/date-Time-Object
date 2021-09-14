@@ -1,3 +1,7 @@
+//Question two
+// Crate a JavaScript application that will display how many days, 
+//months and year left for buhari to leave the office
+
 let countDown = new Date("May 29, 2023 15:37:25")
 
 let count = setInterval(function() {
